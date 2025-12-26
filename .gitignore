@@ -1,0 +1,46 @@
+
+########################
+# VS 本地配置
+########################
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+########################
+# CMake 中间文件
+########################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+########################
+# 构建输出目录（任意层级）
+########################
+out/
+build/
+build-*/
+[Bb]uild*/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+x64/
+x86/
+
+########################
+# 通用编译产物
+########################
+*.obj
+*.o
+*.pdb
+*.ilk
+*.log
+*.tmp
+*.exe
+*.dll
+*.lib
+*.exp
